@@ -1,0 +1,141 @@
+@font-face {
+    src: url(fonts/NunitoSans-Regular.ttf);
+    font-family: "Nunito Sans"
+}
+
+@font-face {
+    src: url(fonts/YesevaOne-Regular.ttf);
+    font-family: "Yeseva One";
+}
+
+html,
+body {
+    margin: auto;
+    padding: 0;
+}
+
+
+/** header **/
+
+.header {
+    height: 80px;
+    background: #131313;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #E3B873;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.header,
+.header__links_tel,
+.header__boton {
+    font-family: Nunito Sans;
+}
+
+.header__links {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.header__links_tel {
+    text-decoration-line: underline;
+}
+
+.header__boton {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    padding: 13px 33px;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.header a:hover,
+a:visited {
+    color: #E3B873;
+}
+
+
+/** main **/
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FFFFFF;
+}
+
+.wrap {
+    background-image: url(images/BGmain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-size: 12px;
+    margin-left: 200px;
+}
+
+.main__title_one {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main__title_two {
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.cover__botton {
+    margin-top: 32px;
+}
+
+.cover__botton_one,
+.cover__botton_two {
+    border: 1px solid #FFFFFF;
+    padding: 20px 40px;
+    margin-right: 10px;
+}
+
+.cover__botton_one a,
+.cover__botton_two a {
+    text-decoration: none;
+    color: white;
+}
+
+.cover__botton_one:hover,
+.cover__botton_two:hover {
+    background-color: #E3B873;
+    border: 1px solid #E3B873;
+    background-size: cover;
+    padding: 20px 40px;
+}
+
+.colorText {
+    color: #E3B873;
+}
